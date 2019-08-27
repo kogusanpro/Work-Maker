@@ -25,7 +25,7 @@ SECRET_KEY = '^rvzt*&^8p(dc6@dr%hw-%97_bz^pj_9c2ls!!&oy*zs+b_nud'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['python-djando-work-maker.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = ['python-django-work-maker.herokuapp.com','127.0.0.1']
 
 
 # Application definition

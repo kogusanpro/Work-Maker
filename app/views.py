@@ -60,7 +60,7 @@ class ListCreateView(LoginRequiredMixin, CreateView):
     model = List
     template_name = "app/lists/create.html"
     form_class = ListForm
-    success_url = reverse_lazy("app:lists_list")
+    success_url = reverse_lazy("app:home")
 
     def form_valid(self, form):
         form.instance.user = self.request.user
